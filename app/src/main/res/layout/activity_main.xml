@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/img"/>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:background="#201F1F"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="#FCAE3C"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/name1"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Gender"
+                android:textColor="#FCAE3C"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/gender1"
+                android:gravity="center"
+                android:text="Gender"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="DOB"
+                android:textColor="#FCAE3C"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/dob1"
+                android:gravity="center"
+                android:text="DOB"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Nationality"
+                android:textColor="#FCAE3C"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/nationality1"
+                android:gravity="center"
+                android:text="Nationality"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="#FCAE3C"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/about1"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Tag"
+                android:textColor="#FCAE3C"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tag"
+                android:gravity="center"
+                android:text="Tag"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
